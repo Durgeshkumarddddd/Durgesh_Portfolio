@@ -10,31 +10,31 @@ import {
 } from 'react-icons/si';
 
 const skills = [
-  { icon: FaReact, name: 'React', level: 80 },
-  { icon: SiExpress, name: 'Express.js', level: 85 },
-  { icon: FaNodeJs, name: 'Node.js', level: 80 },
-  { icon: SiMongodb, name: 'MongoDB', level: 82 },
-  { icon: FaDatabase, name: 'SQL', level: 80 },
-  { icon: FaJs, name: 'JavaScript', level: 85 },
-  { icon: SiTailwindcss, name: 'Tailwind CSS', level: 82 },
-  { icon: FaHtml5, name: 'HTML', level: 90 },
-  { icon: FaCss3, name: 'CSS', level: 85 },
-  { icon: FaPython, name: 'Python', level: 78 },
-  { icon: FaJava, name: 'Java', level: 80 }, // Fixed Java icon
-  { icon: SiC, name: 'C', level: 75 }, // Added C
-  { icon: SiCplusplus, name: 'C++', level: 78 }, // Added C++
-  { icon: FaProjectDiagram, name: 'DSA', level: 82 }, // DSA
-  { icon: FaLightbulb, name: 'Problem Solving', level: 88 }, // Problem Solving
+  { icon: FaReact, name: 'React', level: 100},
+  { icon: SiExpress, name: 'Express.js', level: 100 },
+  { icon: FaNodeJs, name: 'Node.js', level: 100 },
+  { icon: SiMongodb, name: 'MongoDB', level: 100 },
+  { icon: FaDatabase, name: 'SQL', level: 100 },
+  { icon: FaJs, name: 'JavaScript', level: 100 },
+  { icon: SiTailwindcss, name: 'Tailwind CSS', level: 100 },
+  { icon: FaHtml5, name: 'HTML', level: 100 },
+  { icon: FaCss3, name: 'CSS', level: 100 },
+  { icon: FaPython, name: 'Python', level: 100 },
+  { icon: FaJava, name: 'Java', level: 100 }, // Fixed Java icon
+  { icon: SiC, name: 'C', level: 100 }, // Added C
+  { icon: SiCplusplus, name: 'C++', level: 100 }, // Added C++
+  { icon: FaProjectDiagram, name: 'DSA', level: 100 }, // DSA
+  { icon: FaLightbulb, name: 'Problem Solving', level: 100 }, // Problem Solving
   // { icon: FaAws, name: 'AWS', level: 80 },
-  { icon: FaFigma, name: 'Figma', level: 78 },
-  { icon: FaGitAlt, name: 'Git', level: 85 },
+  { icon: FaFigma, name: 'Figma', level: 100 },
+  { icon: FaGitAlt, name: 'Git', level: 100 },
   // { icon: SiTypescript, name: 'TypeScript', level: 75 },
   // { icon: SiRedis, name: 'Redis', level: 70 },
   // { icon: SiGraphql, name: 'GraphQL', level: 72 },
   // { icon: SiPostgresql, name: 'PostgreSQL', level: 74 },
   // { icon: SiNextdotjs, name: 'Next.js', level: 77 },
   // { icon: SiKubernetes, name: 'Kubernetes', level: 65 },
-  { icon: FaLinux, name: 'Linux', level: 80 },
+  { icon: FaLinux, name: 'Linux', level: 100 },
   // { icon: SiDjango, name: 'Django', level: 76 },
 ];
 
@@ -69,7 +69,7 @@ const Skills = () => {
               </div>
               
               <div className="relative pt-1">
-                <div className="flex mb-2 items-center justify-between">
+                {/* <div className="flex mb-2 items-center justify-between">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-purple-600 bg-purple-200 dark:bg-purple-900">
                       Proficiency
@@ -80,7 +80,7 @@ const Skills = () => {
                       {skill.level}%
                     </span>
                   </div>
-                </div>
+                </div> */}
                 <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-purple-200 dark:bg-purple-900">
                   <motion.div
                     initial={{ width: 0 }}

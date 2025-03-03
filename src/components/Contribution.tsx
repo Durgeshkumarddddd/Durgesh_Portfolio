@@ -4,12 +4,12 @@ import { FaGithub, FaCode, FaClock, FaCalendarAlt, FaCodeBranch, FaCheckCircle }
 const Contribution = () => {
   // Sample contribution data
   const contributionData = {
-    totalCommits: 1247,
+    totalCommits: 90,
     dailyAverage: '4.2 hours',
-    streak: 42,
-    repositories: 28,
-    pullRequests: 156,
-    issues: 89,
+    streak: 8,
+    repositories: 18,
+    pullRequests: 12,
+    issues: 6,
   };
 
   // Sample contribution calendar (simplified)
@@ -86,15 +86,15 @@ const Contribution = () => {
                   </span>
                 </div>
 
-                <div className="flex justify-between items-center">
+                {/* <div className="flex justify-between items-center">
                   <div className="flex items-center space-x-3">
                     <FaCheckCircle className="text-purple-600" />
-                    <span className="text-gray-700 dark:text-gray-300">Pull Requests</span>
+                    <span className="text-gray-700 dark:text-gray-300" >Pull Requests</span>
                   </div>
                   <span className="font-semibold text-gray-900 dark:text-white">
                     {contributionData.pullRequests}
                   </span>
-                </div>
+                </div> */}
               </div>
             </div>
 

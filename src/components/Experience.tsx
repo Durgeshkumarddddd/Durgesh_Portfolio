@@ -4,29 +4,29 @@ import { FaBriefcase, FaCalendar } from 'react-icons/fa';
 
 const experiences = [
   {
-    title: 'Senior Full Stack Developer',
-    company: 'Tech Corp',
-    period: '2021 - Present',
-    description: 'Led development of enterprise applications using React, Node.js, and AWS. Mentored junior developers and implemented CI/CD pipelines.',
+    title: ' Full Stack Developer',
+    company: 'iNeuron Pvt. Ltd.',
+    period: 'july 2024 - oct 2024',
+    description: 'Online Cake Order applications using Node.js, Express.js, JavaScript, Ejs, MongoDB',
   },
   {
-    title: 'Full Stack Developer',
-    company: 'Innovation Labs',
-    period: '2019 - 2021',
-    description: 'Developed scalable microservices architecture and implemented real-time features using WebSocket.',
+    title: 'Backend Developer',
+    company: 'PW Skills',
+    period: 'Jan-2024 - March 2024',
+    description: 'Developed Ecommerce site using Node.js, Express.js, JavaScript, MongoDB',
   },
   {
-    title: 'Frontend Developer',
-    company: 'Digital Solutions',
+    title: 'Python Developer',
+    company: 'Learn & Build',
     period: '2018 - 2019',
     description: 'Created responsive web applications and improved performance through code optimization.',
   },
-  {
-    title: 'Junior Developer',
-    company: 'StartUp Inc',
-    period: '2017 - 2018',
-    description: "Worked on various client projects using React and contributed to the company's core product.",
-  },
+  // {
+  //   title: 'Junior Developer',
+  //   company: 'StartUp Inc',
+  //   period: '2017 - 2018',
+  //   description: "Worked on various client projects using React and contributed to the company's core product.",
+  // },
 ];
 
 const Experience = () => {
