@@ -22,7 +22,7 @@ const About = () => {
             className="space-y-6"
           >
             <p className="text-lg text-gray-700 dark:text-gray-300">
-              I'm a passionate Full Stack Developer with 1+ years of experience in creating
+              I'm a passionate MERN Stack Developer with 1+ years of experience in creating
               beautiful and functional web applications. My journey in tech started with
               a curiosity about how things work on the internet, and it has evolved into
               a career filled with continuous learning and innovation.
@@ -61,9 +61,9 @@ const About = () => {
           >
             <div className="aspect-square rounded-2xl overflow-hidden">
               <img
-                src="/Durgeshji.jpg"
+                src="/myPhoto.jpg"
                 alt="About Me"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-purple-600 text-white p-6 rounded-xl">

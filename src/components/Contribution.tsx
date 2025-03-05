@@ -7,8 +7,8 @@ const Contribution = () => {
     totalCommits: 90,
     dailyAverage: '4.2 hours',
     streak: 8,
-    repositories: 18,
-    pullRequests: 12,
+    repositories: 20,
+    pullRequests: 1,
     issues: 6,
   };
 
@@ -104,9 +104,9 @@ const Contribution = () => {
               </h3>
               <div className="space-y-4">
                 {[
-                  { name: 'JavaScript', percentage: 40 },
-                  { name: 'TypeScript', percentage: 25 },
-                  { name: 'Python', percentage: 15 },
+                  { name: 'JavaScript', percentage: 42 },
+                  { name: 'Ejs', percentage: 25 },
+                  { name: 'Java', percentage: 17 },
                   { name: 'HTML/CSS', percentage: 12 },
                   { name: 'Other', percentage: 8 },
                 ].map((language, index) => (

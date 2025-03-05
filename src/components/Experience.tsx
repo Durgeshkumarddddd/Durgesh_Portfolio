@@ -18,8 +18,8 @@ const experiences = [
   {
     title: 'Python Developer',
     company: 'Learn & Build',
-    period: '2018 - 2019',
-    description: 'Created responsive web applications and improved performance through code optimization.',
+    period: 'july-2023 - August-2019',
+    description: 'Created responsive Weather tracker app and improved performance through code optimization.',
   },
   // {
   //   title: 'Junior Developer',

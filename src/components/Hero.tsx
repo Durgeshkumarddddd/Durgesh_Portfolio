@@ -31,7 +31,7 @@ const Hero = () => {
                 Hire Me
               </button>
               <button className="border-2 border-purple-600 text-purple-600 dark:text-purple-400 px-8 py-3 rounded-full hover:bg-purple-600 hover:text-white transition-all">
-                Download CV
+               <a href='/myPhoto.jpg' download > Download CV  </a> 
               </button>
             </div>
           </motion.div>
