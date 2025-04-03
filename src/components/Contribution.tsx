@@ -4,9 +4,9 @@ import { FaGithub, FaCode, FaClock, FaCalendarAlt, FaCodeBranch, FaCheckCircle }
 const Contribution = () => {
   // Sample contribution data
   const contributionData = {
-    totalCommits: 90,
+    totalCommits: 200,
     dailyAverage: '4.2 hours',
-    streak: 8,
+    streak: 10,
     repositories: 20,
     pullRequests: 1,
     issues: 6,

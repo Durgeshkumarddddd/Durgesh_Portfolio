@@ -4,11 +4,11 @@ import { FaCode, FaClock, FaTrophy, FaLaptopCode, FaHackerrank, FaProjectDiagram
 
 const stats = [
   { icon: FaCode, value: '34+', label: 'Skills Mastered' },
-  { icon: FaClock, value: '1223', label: 'Coding Hours' },
+  { icon: FaClock, value: '1223+', label: 'Coding Hours' },
   { icon: FaLaptopCode, value: '100+', label: 'LeetCode Solutions' },
-  { icon: FaTrophy, value: '8', label: 'Competition Wins' },
-  { icon: FaHackerrank, value: '6', label: 'Hackathons' },
-  { icon: FaProjectDiagram, value: '9', label: 'Projects Completed' }
+  { icon: FaTrophy, value: '8+', label: 'Competition Wins' },
+  { icon: FaHackerrank, value: '6+', label: 'Hackathons' },
+  { icon: FaProjectDiagram, value: '12+', label: 'Projects Completed' }
 ];
 
 const Stats = () => {
