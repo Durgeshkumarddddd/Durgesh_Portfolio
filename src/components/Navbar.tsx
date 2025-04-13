@@ -66,6 +66,7 @@ const Navbar = () => {
               'resume',
               'skills',
               'projects',
+              'certifications',
               'contact',
               'contribution',
             ].map((item) => (

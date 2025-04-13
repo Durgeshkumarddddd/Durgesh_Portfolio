@@ -14,6 +14,7 @@ import Contribution from "./components/Contribution";
 import Footer from "./components/Footer";
 import Preloader from "./components/Preloader";
 import CustomCursor from "./components/CustomCursor";
+import Certifications from "./components/Certifications";
 
 const App = () => {
   const [theme, setTheme] = useState("light");
@@ -21,9 +22,7 @@ const App = () => {
 
   useEffect(() => {
     // Simulate loading for 2 seconds
-    const timer = setTimeout(() => setLoading(false), 2000);
-    return () => clearTimeout(timer); // Cleanup timeout
-  }, []);
+    setTimeout(() => setLoading(false), 2000);}, []);
 
   const toggleTheme = () => {
     setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
@@ -65,6 +64,7 @@ const App = () => {
             <Experience />
             <Projects />
             {/* <Testimonials /> */}
+            <Certifications />
             <Stats />
             <Contribution />
             <Contact />

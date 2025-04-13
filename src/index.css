@@ -38,6 +38,32 @@
   .grid-item {
     @apply bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300;
   }
+
+  .certification-swiper {
+    @apply w-full py-12;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .certification-swiper .swiper-slide {
+    @apply opacity-75 transition-all duration-300 transform scale-90;
+  }
+
+  .certification-swiper .swiper-slide-active {
+    @apply opacity-100 scale-100;
+  }
+
+  .certification-swiper .swiper-pagination {
+    @apply bottom-0 !important;
+  }
+
+  .certification-swiper .swiper-pagination-bullet {
+    @apply w-3 h-3 bg-purple-600/50 dark:bg-purple-400/50 transition-all duration-300;
+  }
+
+  .certification-swiper .swiper-pagination-bullet-active {
+    @apply w-6 bg-purple-600 dark:bg-purple-400;
+  }
 }
 
 /* Custom scrollbar */
