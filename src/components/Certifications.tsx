@@ -11,48 +11,48 @@ import { FaAward, FaCertificate, FaLink, FaChevronLeft, FaChevronRight } from 'r
 
 const certificates = [
   {
-    title: "Advanced React and Redux",
-    issuer: "Udemy",
-    date: "2023",
-    image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-    credentialId: "UC-1234567",
-    skills: ["React", "Redux", "JavaScript"],
+    title: "Full Stack developement ",
+    issuer: "INeuron Pvt. Ltd.",
+    date: " Aug-2024",
+    image: "/iNeuronCertificate.jpg",
+    credentialId: "iNeuron Pvt Ltd ",
+    skills: ["Node js", "Express js", "JavaScript", "Ejs", "MongoDb", "Html", "CSS",],
     url: "#"
   },
   {
-    title: "Full Stack Development",
-    issuer: "FreeCodeCamp",
-    date: "2023",
-    image: "https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    title: "Backend  Development",
+    issuer: "PW Skills",
+    date: "March - 2024",
+    image: "/pwCertificate.jpg",
     credentialId: "FCC-7654321",
     skills: ["MERN Stack", "Web Development"],
     url: "#"
   },
   {
-    title: "AWS Cloud Practitioner",
-    issuer: "Amazon Web Services",
-    date: "2023",
-    image: "https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-    credentialId: "AWS-9876543",
-    skills: ["Cloud Computing", "AWS Services"],
+    title: "DBMS",
+    issuer: "NPTEL Anna University",
+    date: "July-2024",
+    image: "/DBMScertificate.jpg",
+    credentialId: "RJ10040031",
+    skills: ["DBMS"],
     url: "#"
   },
   {
-    title: "Python Data Science",
-    issuer: "DataCamp",
-    date: "2022",
-    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-    credentialId: "DC-1122334",
-    skills: ["Python", "Data Analysis", "Machine Learning"],
+    title: "Problem Solving in C",
+    issuer: "IIT KHARAGPUR",
+    date: "APRIL-2023",
+    image: "/problemSolvingInC.jpg",
+    credentialId: "NPTEL23CS53543792587",
+    skills: ["Problem Solving in C "],
     url: "#"
   },
   {
-    title: "UI/UX Design",
-    issuer: "Google",
+    title: "Python",
+    issuer: "Learn & Build",
     date: "2022",
-    image: "https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-    credentialId: "GGL-5544332",
-    skills: ["Figma", "User Research", "Prototyping"],
+    image: "/PythonCertificate.jpg",
+    credentialId: "LNBID:IN23PM11245662452",
+    skills: ["PYTHON"],
     url: "#"
   }
 ];
